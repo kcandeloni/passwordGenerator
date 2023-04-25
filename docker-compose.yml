@@ -26,6 +26,8 @@ services:
     build: ./front-end
     volumes:
       - react-volume:/var/www/html
+    env_file:
+      - front-end/.env
 
   nginx:
     container_name: nginx_app
