@@ -11,8 +11,8 @@ export default defineConfig({
     react(),
     replace({
       preventAssignment: true,
-      "process.env.VITE_APP_BACKEND_URL": JSON.stringify(
-        process.env.VITE_APP_BACKEND_URL
+      "process.env.REACT_APP_BACK_END_URL": JSON.stringify(
+        process.env.REACT_APP_BACK_END_URL
       ),
     }),
   ],

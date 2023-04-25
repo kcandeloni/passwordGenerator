@@ -12,7 +12,6 @@ export function Home() {
   };
 
   async function generatePassword() {
-    console.log(API_URL);
     try {
       const { data } = await axios.post(`${API_URL}/generate-password`, {
         length: inputValue,
