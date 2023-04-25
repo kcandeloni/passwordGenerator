@@ -12,16 +12,19 @@
 3. Configure os arquivos `.env` nos diretórios back-end e front-end conforme `.env.example`
 3. Na raiz do projeto execute o comando `docker compose up`
 
-
 ### URL:
     O *endpoint* do serviço estará disponível em http://localhost:80
-
 
 
 ### Rota Aplicação Web: 
 
 endpoint `/` é um formulário para criação de senha.
 
+<div align="center">
+
+![image](https://user-images.githubusercontent.com/12499886/234157586-bb95dc26-b104-425d-816c-325103e10c6d.png)
+
+</div>
 
 ### Rotas para acessar a API pela porta 80:
 
